@@ -25,20 +25,20 @@ For each topic, we cover:
 ## ✅ Study Roadmap
 
 | Order | Topic                         | Status | Notes                        |
-| ----- | ----------------------------- | ------ | ---------------------------- |
-| 1     | Arrays & Memory               | ✅      | Memory layout, indexing      |
-| 2     | Strings & Character Arrays    | ✅      | Encoding, string ops         |
-| 3     | Linked Lists (Singly, Doubly) | ⬜      | Pointers, memory reuse       |
-| 4     | Stacks & Queues               | ⬜      | LIFO, FIFO implementations   |
-| 5     | Hash Tables                   | ⬜      | Hashing and collision handling|
-| 6     | Recursion & Call Stack        | ⬜      | Recursive modeling           |
-| 7     | Binary Search                 | ⬜      | Divide & conquer, bounds     |
-| 8     | Trees (Binary, BST)           | ⬜      | Structure and traversal      |
-| 9     | Sorting Algorithms            | ⬜      | Bubble, Merge, Quick, etc.   |
-| 10    | Searching in Trees            | ⬜      | DFS, BFS                     |
-| 11    | Graphs & Traversals           | ⬜      | Adjacency, DFS, BFS          |
-| 12    | Dynamic Programming           | ⬜      | Subproblem reuse             |
-| 13    | Greedy Algorithms             | ⬜      | Local choice → global opt    |
+| ----- | ----------------------------- | ---- | ---------------------------- |
+| 1     | Arrays & Memory               | ⬜     | Memory layout, indexing      |
+| 2     | Strings & Character Arrays    | ⬜     | Encoding, string ops         |
+| 3     | Linked Lists (Singly, Doubly) | ⬜    | Pointers, memory reuse       |
+| 4     | Stacks & Queues               | ⬜    | LIFO, FIFO implementations   |
+| 5     | Hash Tables                   | ⬜    | Hashing and collision handling|
+| 6     | Recursion & Call Stack        | ⬜    | Recursive modeling           |
+| 7     | Binary Search                 | ⬜    | Divide & conquer, bounds     |
+| 8     | Trees (Binary, BST)           | ⬜    | Structure and traversal      |
+| 9     | Sorting Algorithms            | ⬜    | Bubble, Merge, Quick, etc.   |
+| 10    | Searching in Trees            | ⬜    | DFS, BFS                     |
+| 11    | Graphs & Traversals           | ⬜    | Adjacency, DFS, BFS          |
+| 12    | Dynamic Programming           | ⬜    | Subproblem reuse             |
+| 13    | Greedy Algorithms             | ⬜    | Local choice → global opt    |
 
 ---
 
