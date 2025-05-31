@@ -1,0 +1,48 @@
+Basic Palindrome | aab | true
+Tact Coa Example | Tact Coa | true
+Empty String |  | true
+Single Character | a | true
+Two Same Characters | aa | true
+Two Different Characters | ab | false
+Three Characters Valid | abc | false
+Three Characters Valid Permutation | aab | true
+All Same Characters | aaaa | true
+Mixed Case Valid | AaB | true
+Mixed Case Invalid | AbC | false
+With Spaces Valid | a a | true
+With Spaces Invalid | a b c | false
+Long Valid String | aabbcc | true
+Valid With One Odd | aabbccd | true
+Almost Palindrome | aabbcd | false
+One Odd Count | aabbcccdd | true
+Two Odd Counts | aabbccddeefg | false
+Punctuation Valid | a!a | true
+Punctuation Invalid | a!b | false
+Numbers and Letters Valid | a1a | true
+Numbers and Letters Invalid | a1b | false
+Special Characters | !@#!@# | true
+Mixed Everything Valid | A1a!B1b! | true
+Mixed Everything Invalid | A1a!B2c! | false
+Race Car Permutation | racecar | true
+Madam Permutation | madam | true
+Hello Invalid | hello | false
+Level Permutation | level | true
+Noon Permutation | noon | true
+Never Odd Or Even | neveroddoreven | true
+Was It A Rat I Saw | wasitaratisaw | true
+Step On No Pets | steponopets | true
+Do Geese See God | dogeeseseegod | true
+A Man A Plan A Canal Panama | amanaplanacanalpanama | true
+Mr Owl Ate My Metal Worm | mrowlatemymetalworm | true
+Long Invalid Example | thisisnotapalindrome | false
+Repeating Pattern Valid | abcabcd | true
+Repeating Pattern Invalid | abcabcabc | false
+Only Consonants Valid | bcdfghjklmnpqrstvwxyz | false
+Only Vowels Valid | aeiou | false
+Very Long Valid | abcdefghijklmnopqrstuvwxyzzyxwvutsrqponmlkjihgfedcba | true
+Very Long Invalid | abcdefghijklmnopqrstuvwxyzzyxwvutsrqponmlkjihgfedcbaxa | false
+Mixed Digits Valid | 1a2b3c3b2a1 | true
+Case Sensitive Test | AaBbCc | true
+Whitespace Only |      | true
+Alternating Pattern | ababab | false
+Long Alternating Invalid | abababc | false
