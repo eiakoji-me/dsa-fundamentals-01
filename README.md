@@ -25,8 +25,8 @@ For each topic, we cover:
 ## ✅ Study Roadmap
 
 | Order | Topic                         | Status | Notes                        |
-| ----- | ----------------------------- | ---- | ---------------------------- |
-| 1     | Arrays & Memory               | ⬜     | Memory layout, indexing      |
+| ----- |-------------------------------| ---- | ---------------------------- |
+| 1     | Arrays & String               | ⬜     | Memory layout, indexing      |
 | 2     | Strings & Character Arrays    | ⬜     | Encoding, string ops         |
 | 3     | Linked Lists (Singly, Doubly) | ⬜    | Pointers, memory reuse       |
 | 4     | Stacks & Queues               | ⬜    | LIFO, FIFO implementations   |
