@@ -1,0 +1,20 @@
+Same Strings | pale | pale | true
+One Replace Middle | pale | bale | true
+One Replace End | pale | pale | true
+One Insert End | pale | pales | true
+One Insert Middle | pale | paale | true
+One Delete Start | pale | ale | true
+One Delete End | pale | pal | true
+Completely Different | pale | xyz | false
+Two Edits | pale | bake | false
+Empty vs One Char |  | a | true
+Empty vs Two Chars |  | ab | false
+Insert and Replace | pale | pble | true
+Case Sensitive | Pale | pale | true
+Unicode Characters | café | cafe | true
+Special Characters | a!b | ab | true
+Trailing Spaces | pale  | pale | true
+Same Length No Edit | test | test | true
+One Replace Start | test | pest | true
+One Insert Start | est | test | true
+One Delete Middle | teest | test | true

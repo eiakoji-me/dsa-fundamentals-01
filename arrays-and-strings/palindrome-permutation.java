@@ -133,7 +133,7 @@ class Solution {
 
         // Load test cases into memory first
         List<String[]> testCases = new ArrayList<>();
-        try (BufferedReader reader = new BufferedReader(new FileReader("input-data/palindrome-permutation.inputs.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("input-data/palindrome-permutation.input.txt"))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] parts = line.split("\\|");
