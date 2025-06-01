@@ -27,8 +27,11 @@ class Solution {
         int countConsecutive = 0;
         for(int i = 0; i < str.length(); i++){
             countConsecutive++;
+
+            boolean isLast = (i == str.length() - 1);
+            boolean isDifferent = !isLast && str.charAt(i) != str.charAt(i + 1);
             /* If next character is different from the current, append this char to result */
-            if(i + 1 >= str.length() || str.charAt(i) != str.charAt(i+1)) {
+            if (isLast || isDifferent) {
                 compressed.append(str.charAt(i));
                 compressed.append(countConsecutive);
                 countConsecutive = 0;
