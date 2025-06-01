@@ -1,0 +1,20 @@
+Basic Compression              | aabcccccaaa         | a2b1c5a3          | true
+No Compression Needed          | abcdef              | abcdef            | false
+Single Character               | a                   | a                 | false
+Repeated Single Character      | aaaaaa              | a6                | true
+All Unique Characters          | abcdefgh            | abcdefgh          | false
+Two Letters Each               | aabbcc              | a2b2c2            | true
+Ends With Unique Character     | aabcccccaaad        | a2b1c5a3d1        | true
+Mixed Long and Short Runs      | aabccddddd          | a2b1c2d5          | true
+Single Repeated Group          | bbbbb               | b5                | true
+Empty String                   |                     |                   | false
+Multiple Equal Groups          | aabbbaaa            | a2b3a3            | true
+Ends With Long Run             | abbbbb              | a1b5              | true
+Alternating Characters         | ababab              | a1b1a1b1a1b1      | false
+One Long Run in Middle         | abbcccddddde        | a1b2c3d5e1        | true
+Digits in Input                | a1a1a1              | a112a1            | true
+Case Sensitivity Check         | AaAaAa              | A1a1A1a1A1a1      | false
+Unicode Characters             | ääääööööüüüü        | ä4ö4ü4            | true
+Spaces Included                | aa  bb              | a2 2b2            | true
+Newlines and Tabs              | a\na\ta             | a1\n1\t1a1        | false
+Large Input Compression        | aaaaaaaaaaaaaaaaaa  | a18               | true
