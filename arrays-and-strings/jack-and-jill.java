@@ -44,6 +44,7 @@ Jack and Jill were passing through a jungle on their way when they encountered a
 * Increment all 3 buckets to 1 → [1, 1, 1] → 3 operations
 * Double 4 times → [2, 2, 2] → [4, 4, 4] → [8, 8, 8] → [16, 16, 16] → 4 operationsTotal = 3 + 4 = 7 operations
 */
+
 import java.util.*;
 
 class JackAndJill {
